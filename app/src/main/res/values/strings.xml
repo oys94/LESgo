@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LESgo</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_number">Your Number</string>
+    <string name="prompt_password">Password</string>
+    <string name="strLogin">Login</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+
+</resources>

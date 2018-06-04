@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:background="#254061"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+
+        <GridLayout
+            android:id="@+id/grid1"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:layout_gravity="center"
+            android:columnCount="1"
+            android:rowCount="3">
+
+
+            <ImageButton
+                android:id="@+id/f0"
+                android:layout_width="fill_parent"
+                android:layout_height="105dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/menu01" />
+
+            <ImageButton
+                android:id="@+id/f1"
+                android:layout_width="fill_parent"
+                android:layout_height="105dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/menu02" />
+
+            <ImageButton
+                android:id="@+id/f2"
+                android:layout_width="fill_parent"
+                android:layout_height="105dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/menu03" />
+
+        </GridLayout>
+
+        <GridLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:columnCount="4"
+            android:rowCount="1">
+
+            <ImageButton
+                android:id="@+id/f3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#254061"
+                android:scaleType="fitXY"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/sub_menu01" />
+            <ImageButton
+                android:id="@+id/f4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#254061"
+                android:layout_columnWeight="1"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/sub_menu02" />
+            <ImageButton
+                android:id="@+id/f5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#254061"
+                android:scaleType="fitXY"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/sub_menu03" />
+            <ImageButton
+                android:id="@+id/f6"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#254061"
+                android:scaleType="fitXY"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/sub_menu04" />
+
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:textColor="#ffffff"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:text="환영합니다!" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
