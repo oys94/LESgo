@@ -15,7 +15,9 @@ public class LoginActivity extends AppCompatActivity {
     private LoginCheck check = new LoginCheck();
     private AutoCompleteTextView mNumberView;
     private EditText mPasswordView;
-
+    /*
+    * test
+    * */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
